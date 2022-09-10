@@ -37,7 +37,7 @@ This files contents are outlined below.
 @import url("https://fonts.googleapis.com/css?family=Oswald:300,400,700|Roboto:300,300i,400,400i,500,500i,700,700i");
 /*Color Variables*/
 ::selection {
-  background-color: #5DBCD2;
+  background-color: #a62020;
   color: #FFFFFF; }
 
 /* Button */
@@ -45,7 +45,7 @@ This files contents are outlined below.
   font: 700 18px/59px "Roboto", sans-serif;
   width: 180px;
   text-align: center;
-  background: #5DBCD2;
+  background: #a62020;
   display: block;
   border: 0;
   color: #222222;
@@ -85,7 +85,7 @@ This files contents are outlined below.
     .tittle h2:after {
       content: "";
       position: absolute;
-      background: #5DBCD2;
+      background: #a62020;
       height: 5px;
       width: 60px;
       left: 50%;
@@ -164,19 +164,19 @@ a, .btn, button {
 /*--------------------------------------------------*/
 /* Top header */
 .top_header_area {
-  background: #111f29; }
+  background: #000033; }
   .top_header_area .top_nav li a {
     font: 400 14px/50px "Roboto", sans-serif;
     color: #fff;
     padding: 0;
     padding-left: 30px; }
     .top_header_area .top_nav li a i {
-      color: #5DBCD2;
+      color: #a62020;
       font-size: 18px;
       padding-right: 10px; }
     .top_header_area .top_nav li a:hover, .top_header_area .top_nav li a:focus {
       background-color: transparent;
-      color: #5DBCD2; }
+      color: #a62020; }
   .top_header_area .top_nav li:first-child a {
     padding: 0; }
   .top_header_area .social_nav {
@@ -194,8 +194,8 @@ a, .btn, button {
       .top_header_area .social_nav li a i {
         line-height: 24px; }
       .top_header_area .social_nav li a:hover, .top_header_area .social_nav li a:focus {
-        background: #5DBCD2;
-        color: #111f29; }
+        background: #a62020;
+        color: #000033; }
 
 /* End Top header */
 /* Top header 2 */
@@ -204,7 +204,7 @@ a, .btn, button {
   position: relative;
   overflow: hidden; }
   .top_header_area.top_header .right_top_header {
-    background: #111f29;
+    background: #000033;
     display: block;
     overflow: hidden;
     padding-left: 20px; }
@@ -213,7 +213,7 @@ a, .btn, button {
       position: absolute;
       right: 0;
       width: 50%;
-      background: #111f29;
+      background: #000033;
       height: 50px;
       z-index: -1; }
 
@@ -237,7 +237,7 @@ a, .btn, button {
       border: none;
       font-size: 14px;
       padding: 0 45px;
-      background: #5DBCD2;
+      background: #a62020;
       color: #fff;
       cursor: pointer; }
     .header_aera .searchForm .form-control {
@@ -246,7 +246,7 @@ a, .btn, button {
       border-radius: 0;
       border: none;
       color: #fff;
-      background: #5DBCD2;
+      background: #a62020;
       text-align: center;
       font: 400 16px "Roboto", sans-serif;
       box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6); }
@@ -273,10 +273,10 @@ a, .btn, button {
     padding: 0;
     padding-left: 30px; }
     .header_aera .navbar-collapse .navbar-nav.navbar-right li a:hover, .header_aera .navbar-collapse .navbar-nav.navbar-right li a:focus {
-      color: #5DBCD2; }
+      color: #a62020; }
   .header_aera .navbar-collapse .navbar-nav.navbar-right li .nav_searchFrom {
     width: 100px;
-    background: #5DBCD2;
+    background: #a62020;
     color: #fff;
     padding: 0;
     text-align: center;
@@ -292,7 +292,7 @@ a, .btn, button {
     border-radius: 0px;
     min-width: 190px;
     transition: all 500ms ease-in-out;
-    background: #5DBCD2; }
+    background: #a62020; }
     @media (min-width: 768px) {
       .header_aera .navbar-collapse .navbar-nav.navbar-right li.submenu ul {
         margin-right: -150px;
@@ -381,7 +381,7 @@ a, .btn, button {
     text-shadow: none;
     left: 0; }
     .slider_area .slider_inner .camera_caption div h5 {
-      color: #5DBCD2;
+      color: #a62020;
       font: 400 24px "Roboto", sans-serif; }
     .slider_area .slider_inner .camera_caption div h3 {
       color: #fff;
@@ -398,7 +398,7 @@ a, .btn, button {
       font: 700 18px/59px "Roboto", sans-serif;
       width: 180px;
       text-align: center;
-      background: #5DBCD2;
+      background: #a62020;
       display: block;
       text-shadow: none;
       margin: 0 auto;
@@ -499,7 +499,7 @@ a, .btn, button {
       font: 400 14px "Roboto", sans-serif;
       color: #fefefe; }
       .banner_area .breadcrumb li a.active {
-        color: #5DBCD2; }
+        color: #a62020; }
 
 /* End Banner Area */
 /*--------------------------------------------------*/
@@ -512,7 +512,7 @@ a, .btn, button {
     padding-bottom: 25px; }
     .professional_builder .builder_all .builder i {
       font-size: 48px;
-      color: #5DBCD2;
+      color: #a62020;
       padding-bottom: 35px; }
     .professional_builder .builder_all .builder h4 {
       font: 700 18px "Roboto", sans-serif;
@@ -552,7 +552,7 @@ a, .btn, button {
       position: relative;
       margin-bottom: 40px; }
       .about_us_area .about_row .our_skill_inner .single_skill .progress .progress-bar {
-        background: #5DBCD2;
+        background: #a62020;
         box-shadow: none; }
         .about_us_area .about_row .our_skill_inner .single_skill .progress .progress-bar .progress_parcent {
           font: 700 18px "Roboto", sans-serif;
@@ -566,7 +566,7 @@ a, .btn, button {
 /* End about_us_area */
 /*--------------------------------------------------*/
 .what_we_area {
-  background: #5DBCD2; }
+  background: #a62020; }
   .what_we_area .tittle h2:after {
     background: #fff; }
   .what_we_area .tittle h4 {
@@ -609,7 +609,7 @@ a, .btn, button {
           color: #555555;
           padding-top: 20px; }
       .what_we_area .construction_iner .construction:hover a, .what_we_area .construction_iner .construction:focus a {
-        color: #5DBCD2; }
+        color: #a62020; }
       .what_we_area .construction_iner .construction:hover i, .what_we_area .construction_iner .construction:focus i {
         font-size: 35px; }
 
@@ -631,18 +631,18 @@ a, .btn, button {
         padding-right: 30px; }
         .our_feature_area .feature_row .feature_content .media .media-left a i {
           font-size: 24px;
-          color: #5DBCD2;
+          color: #a62020;
           line-height: 50px;
           width: 60px;
           text-align: center;
           background: #333333;
-          border: 5px solid #5DBCD2; }
+          border: 5px solid #a62020; }
       .our_feature_area .feature_row .feature_content .media .media-body a {
         font: 700 18px "Roboto", sans-serif;
         color: #222222;
         text-transform: uppercase; }
         .our_feature_area .feature_row .feature_content .media .media-body a:hover, .our_feature_area .feature_row .feature_content .media .media-body a:focus {
-          color: #5DBCD2; }
+          color: #a62020; }
       .our_feature_area .feature_row .feature_content .media .media-body p {
         font: 400 14px/26px "Roboto", sans-serif;
         color: #555555;
@@ -676,7 +676,7 @@ a, .btn, button {
             text-transform: uppercase;
             color: #f5f5f5; }
           .our_services_area .portfolio_inner_area .portfolio_filter ul li:hover a, .our_services_area .portfolio_inner_area .portfolio_filter ul li:focus a, .our_services_area .portfolio_inner_area .portfolio_filter ul li.active a {
-            color: #5DBCD2; }
+            color: #a62020; }
     .our_services_area .portfolio_inner_area .portfolio_item .single_facilities .single_facilities_inner {
       position: relative; }
       .our_services_area .portfolio_inner_area .portfolio_item .single_facilities .single_facilities_inner img {
@@ -724,7 +724,7 @@ a, .btn, button {
               border: 1px solid #fff;
               display: block; }
               .our_services_area .portfolio_inner_area .portfolio_item .single_facilities .single_facilities_inner .gallery_hover ul li a:hover, .our_services_area .portfolio_inner_area .portfolio_item .single_facilities .single_facilities_inner .gallery_hover ul li a:focus {
-                color: #5DBCD2;
+                color: #a62020;
                 background: #fff; }
       .our_services_area .portfolio_inner_area .portfolio_item .single_facilities .single_facilities_inner:hover .gallery_hover, .our_services_area .portfolio_inner_area .portfolio_item .single_facilities .single_facilities_inner:focus .gallery_hover {
         opacity: 1; }
@@ -773,9 +773,9 @@ a, .btn, button {
               display: block;
               padding-bottom: 10px; }
           .our_services_tow .architecture_area .portfolio_filter_2 ul li:hover, .our_services_tow .architecture_area .portfolio_filter_2 ul li:focus, .our_services_tow .architecture_area .portfolio_filter_2 ul li.active {
-            border-bottom: 5px solid #5DBCD2; }
+            border-bottom: 5px solid #a62020; }
             .our_services_tow .architecture_area .portfolio_filter_2 ul li:hover a, .our_services_tow .architecture_area .portfolio_filter_2 ul li:focus a, .our_services_tow .architecture_area .portfolio_filter_2 ul li.active a {
-              color: #5DBCD2; }
+              color: #a62020; }
     .our_services_tow .architecture_area .portfolio_2 {
       padding-top: 90px; }
       .our_services_tow .architecture_area .portfolio_2 .single_facilities img {
@@ -783,7 +783,7 @@ a, .btn, button {
       .our_services_tow .architecture_area .portfolio_2 .single_facilities .who_we_area .subtittle {
         padding-bottom: 30px; }
         .our_services_tow .architecture_area .portfolio_2 .single_facilities .who_we_area .subtittle h2:after {
-          background: #5DBCD2; }
+          background: #a62020; }
       .our_services_tow .architecture_area .portfolio_2 .single_facilities .who_we_area p {
         font: 400 14px/26px "Roboto", sans-serif;
         color: #555555;
@@ -812,7 +812,7 @@ a, .btn, button {
       .our_team_area .team_row .team_membar img {
         max-width: 100%; }
       .our_team_area .team_row .team_membar .team_content {
-        background: #5DBCD2;
+        background: #a62020;
         text-align: center;
         padding-top: 20px;
         padding-bottom: 30px;
@@ -843,7 +843,7 @@ a, .btn, button {
               border: 1px solid #fff;
               display: block; }
               .our_team_area .team_row .team_membar .team_content ul li a:hover, .our_team_area .team_row .team_membar .team_content ul li a:focus {
-                color: #5DBCD2;
+                color: #a62020;
                 background: #fff; }
         .our_team_area .team_row .team_membar .team_content .name {
           font: 700 14px "Roboto", sans-serif;
@@ -894,7 +894,7 @@ a, .btn, button {
         padding-top: 10px; }
       .our_achievments_area .achievments_row .completed .counter {
         font: 700 40px "Roboto", sans-serif;
-        color: #5DBCD2;
+        color: #a62020;
         display: block;
         padding-top: 23px; }
       .our_achievments_area .achievments_row .completed h6 {
@@ -931,7 +931,7 @@ a, .btn, button {
           padding-top: 5px; }
     .testimonial_area .testimonial_carosel .item p {
       font: 400 italic 14px/26px "Roboto", sans-serif;
-      color: #5DBCD2;
+      color: #a62020;
       max-width: 945px;
       margin: 0 auto;
       text-align: center;
@@ -957,8 +957,8 @@ a, .btn, button {
         transition: all 300ms linear 0s;
         border-radius: 50%; }
         .testimonial_area .testimonial_carosel .owl-controls .owl-dots .owl-dot:hover, .testimonial_area .testimonial_carosel .owl-controls .owl-dots .owl-dot:focus, .testimonial_area .testimonial_carosel .owl-controls .owl-dots .owl-dot.active {
-          background: #5DBCD2;
-          border: 2px solid #5DBCD2; }
+          background: #a62020;
+          border: 2px solid #a62020; }
 
 /* End Testimonial Area */
 /* Our Partners Area */
@@ -970,7 +970,7 @@ a, .btn, button {
     .our_partners_area .partners .item img {
       width: 100%; }
   .our_partners_area .book_now_aera {
-    background: #5DBCD2;
+    background: #a62020;
     padding: 50px 0; }
     .our_partners_area .book_now_aera .book_now .booking_text {
       padding-top: 8px; }
@@ -1063,7 +1063,7 @@ a, .btn, button {
           margin: 0 auto; }
           .featured_works .featured_gallery .gallery_iner .gallery_hover a:hover, .featured_works .featured_gallery .gallery_iner .gallery_hover a:focus {
             background: #fff;
-            color: #5DBCD2; }
+            color: #a62020; }
       .featured_works .featured_gallery .gallery_iner:hover:after, .featured_works .featured_gallery .gallery_iner:focus:after {
         opacity: 1; }
       .featured_works .featured_gallery .gallery_iner:hover .gallery_hover h4, .featured_works .featured_gallery .gallery_iner:focus .gallery_hover h4 {
@@ -1088,7 +1088,7 @@ a, .btn, button {
         display: block;
         padding-top: 45px; }
         .latest_blog_area .latest_blog .blog_content .blog_heading:hover, .latest_blog_area .latest_blog .blog_content .blog_heading:focus {
-          color: #5DBCD2; }
+          color: #a62020; }
       .latest_blog_area .latest_blog .blog_content h4 {
         font: 400 14px "Roboto", sans-serif;
         color: #555555;
@@ -1098,9 +1098,9 @@ a, .btn, button {
           font: 400 14px "Roboto", sans-serif;
           color: #555555; }
           .latest_blog_area .latest_blog .blog_content h4 a:hover, .latest_blog_area .latest_blog .blog_content h4 a:focus {
-            color: #5DBCD2; }
+            color: #a62020; }
         .latest_blog_area .latest_blog .blog_content h4 span {
-          color: #5DBCD2;
+          color: #a62020;
           width: 40px;
           text-align: center;
           display: inline-block; }
@@ -1113,7 +1113,7 @@ a, .btn, button {
           font-weight: 700;
           color: #222222; }
           .latest_blog_area .latest_blog .blog_content p a:hover, .latest_blog_area .latest_blog .blog_content p a:focus {
-            color: #5DBCD2; }
+            color: #a62020; }
 
 /* End latest_blog_area */
 /* blog_tow_area */
@@ -1128,7 +1128,7 @@ a, .btn, button {
       border: 1px solid #888;
       padding: 28px; }
       .blog_tow_area .blog_tow_row .renovation .renovation_content .clipboard {
-        background: #5DBCD2;
+        background: #a62020;
         border: 1px solid #fff;
         width: 60px;
         border-radius: 50%;
@@ -1149,7 +1149,7 @@ a, .btn, button {
         display: block;
         padding-top: 30px; }
         .blog_tow_area .blog_tow_row .renovation .renovation_content .tittle:hover, .blog_tow_area .blog_tow_row .renovation .renovation_content .tittle:focus {
-          color: #5DBCD2; }
+          color: #a62020; }
       .blog_tow_area .blog_tow_row .renovation .renovation_content .date_comment {
         padding-top: 20px; }
         .blog_tow_area .blog_tow_row .renovation .renovation_content .date_comment a {
@@ -1167,7 +1167,7 @@ a, .btn, button {
 /* End blog_tow_area */
 /*--------------------------------------------------*/
 .call_min_area {
-  background: #5DBCD2;
+  background: #a62020;
   text-align: center;
   padding-top: 85px;
   padding-bottom: 100px; }
@@ -1210,7 +1210,7 @@ a, .btn, button {
     display: block;
     padding-top: 25px; }
     .building_construction_area .building_construction_row .constructing_laft a:hover, .building_construction_area .building_construction_row .constructing_laft a:focus {
-      color: #5DBCD2; }
+      color: #a62020; }
   .building_construction_area .building_construction_row .constructing_laft p {
     font: 400 14px/26px "Roboto", sans-serif;
     color: #555555; }
@@ -1225,7 +1225,7 @@ a, .btn, button {
         font: 400 14px/26px "Roboto", sans-serif;
         color: #555555; }
         .building_construction_area .building_construction_row .constructing_laft .ipsum .excavator li i {
-          color: #5DBCD2;
+          color: #a62020;
           padding-right: 30px; }
   .building_construction_area .building_construction_row .constructing_laft .ipsum_img {
     padding-top: 25px;
@@ -1253,9 +1253,9 @@ a, .btn, button {
           font-size: 18px;
           padding-right: 20px; }
         .building_construction_area .building_construction_row .constructing_right .painting li a:hover, .building_construction_area .building_construction_row .constructing_right .painting li a:focus {
-          color: #5DBCD2; }
+          color: #a62020; }
   .building_construction_area .building_construction_row .constructing_right .contact_us {
-    background: #5DBCD2;
+    background: #a62020;
     padding: 30px; }
     .building_construction_area .building_construction_row .constructing_right .contact_us h4 {
       font: 400 14px/1 "Roboto", sans-serif;
@@ -1293,7 +1293,7 @@ a, .btn, button {
       display: block;
       font: 700 14px/30px "Roboto", sans-serif;
       color: #fefefe;
-      border-bottom: 1px solid #5DBCD2; }
+      border-bottom: 1px solid #a62020; }
       .blog_all .blog_row .main_blog .blog_date a:last-child {
         border: 0; }
   .blog_all .blog_row .main_blog .blog_content .blog_heading {
@@ -1304,17 +1304,17 @@ a, .btn, button {
     padding-top: 20px;
     padding-bottom: 33px; }
     .blog_all .blog_row .main_blog .blog_content .blog_heading:hover, .blog_all .blog_row .main_blog .blog_content .blog_heading:focus {
-      color: #5DBCD2; }
+      color: #a62020; }
   .blog_all .blog_row .main_blog .blog_content .blog_admin {
     font: 400 14px "Roboto", sans-serif;
     color: #222222;
     display: inline-block;
     padding-bottom: 30px; }
     .blog_all .blog_row .main_blog .blog_content .blog_admin i {
-      color: #5DBCD2;
+      color: #a62020;
       padding-right: 10px; }
     .blog_all .blog_row .main_blog .blog_content .blog_admin:hover, .blog_all .blog_row .main_blog .blog_content .blog_admin:focus {
-      color: #5DBCD2; }
+      color: #a62020; }
   .blog_all .blog_row .main_blog .blog_content .like_share {
     padding: 0;
     margin: 0;
@@ -1327,7 +1327,7 @@ a, .btn, button {
         color: #222222;
         padding-left: 20px; }
         .blog_all .blog_row .main_blog .blog_content .like_share li a i {
-          color: #5DBCD2;
+          color: #a62020;
           padding-right: 10px; }
       .blog_all .blog_row .main_blog .blog_content .like_share li:last-child a i {
         padding: 0; }
@@ -1350,8 +1350,8 @@ a, .btn, button {
       margin-right: 10px; }
       .blog_all .blog_row .main_blog .blog_content .tag a:hover, .blog_all .blog_row .main_blog .blog_content .tag a:focus {
         color: #fff;
-        background: #5DBCD2;
-        border: 1px solid #5DBCD2; }
+        background: #a62020;
+        border: 1px solid #a62020; }
   .blog_all .blog_row .main_blog .client_text {
     border-top: 1px solid #888;
     display: block;
@@ -1382,7 +1382,7 @@ a, .btn, button {
       text-transform: capitalize;
       background-color: transparent; }
       .blog_all .blog_row .main_blog .client_text .control i {
-        color: #5DBCD2; }
+        color: #a62020; }
       .blog_all .blog_row .main_blog .client_text .control:last-child {
         border-left: 0; }
   .blog_all .blog_row .main_blog .comment_area {
@@ -1409,7 +1409,7 @@ a, .btn, button {
         font: 700 14px "Roboto", sans-serif;
         color: #222222; }
         .blog_all .blog_row .main_blog .comment_area .media .media-body .media-heading:hover, .blog_all .blog_row .main_blog .comment_area .media .media-body .media-heading:focus {
-          color: #5DBCD2; }
+          color: #a62020; }
       .blog_all .blog_row .main_blog .comment_area .media .media-body h5 {
         font: 400 14px "Roboto", sans-serif;
         color: #888888;
@@ -1427,7 +1427,7 @@ a, .btn, button {
         display: block;
         background: #4b4b4b; }
         .blog_all .blog_row .main_blog .comment_area .media .media-body .reply:hover, .blog_all .blog_row .main_blog .comment_area .media .media-body .reply:focus {
-          color: #5DBCD2; }
+          color: #a62020; }
   .blog_all .blog_row .main_blog .reply_comment {
     border: 0;
     padding-left: 80px; }
@@ -1461,14 +1461,14 @@ a, .btn, button {
     .blog_all .blog_row .main_blog .post_comment .comment_box button {
       color: #fefefe;
       font: 400 14px/40px "Roboto", sans-serif;
-      background: #5DBCD2;
+      background: #a62020;
       width: 150px;
       border: 0;
       border-radius: 10px;
       margin-top: 20px;
       text-transform: uppercase; }
       .blog_all .blog_row .main_blog .post_comment .comment_box button:hover, .blog_all .blog_row .main_blog .post_comment .comment_box button:focus {
-        color: #5DBCD2;
+        color: #a62020;
         background: #222222; }
   .blog_all .blog_row .widget_area .resent {
     padding-bottom: 60px; }
@@ -1487,7 +1487,7 @@ a, .btn, button {
         display: block;
         margin-top: -7px; }
         .blog_all .blog_row .widget_area .resent .media .media-body a:hover, .blog_all .blog_row .widget_area .resent .media .media-body a:focus {
-          color: #5DBCD2; }
+          color: #a62020; }
       .blog_all .blog_row .widget_area .resent .media .media-body h6 {
         font: 400 14px/26px "Roboto", sans-serif;
         color: #888; }
@@ -1501,9 +1501,9 @@ a, .btn, button {
           border-bottom: 1px solid #555555;
           display: block; }
           .blog_all .blog_row .widget_area .resent .architecture li a:hover, .blog_all .blog_row .widget_area .resent .architecture li a:focus {
-            color: #5DBCD2; }
+            color: #a62020; }
           .blog_all .blog_row .widget_area .resent .architecture li a i {
-            color: #5DBCD2;
+            color: #a62020;
             padding-right: 10px; }
         .blog_all .blog_row .widget_area .resent .architecture li:last-child a {
           border: 0; }
@@ -1522,8 +1522,8 @@ a, .btn, button {
           margin-right: 5px; }
           .blog_all .blog_row .widget_area .resent .tag li a:hover, .blog_all .blog_row .widget_area .resent .tag li a:focus {
             color: #fff;
-            background: #5DBCD2;
-            border: 1px solid #5DBCD2; }
+            background: #a62020;
+            border: 1px solid #a62020; }
   .blog_all .blog_row .widget_area .search {
     padding-bottom: 60px; }
     .blog_all .blog_row .widget_area .search input {
@@ -1541,7 +1541,7 @@ a, .btn, button {
   padding: 100px 0; }
   .not_found_area h2 {
     font: 400 48px/1 "Roboto", sans-serif;
-    color: #5DBCD2;
+    color: #a62020;
     text-transform: uppercase; }
   .not_found_area p {
     font: 400 14px "Roboto", sans-serif;
@@ -1549,7 +1549,7 @@ a, .btn, button {
     padding-top: 50px; }
   .not_found_area h1 {
     font: 700 72px/1 "Roboto", sans-serif;
-    color: #5DBCD2;
+    color: #a62020;
     padding-top: 50px;
     text-transform: uppercase;
     padding-bottom: 90px; }
@@ -1579,7 +1579,7 @@ a, .btn, button {
       width: 50px;
       color: #d3dadf; }
     .not_found_area .search_error:hover a, .not_found_area .search_error:focus a {
-      background: #5DBCD2;
+      background: #a62020;
       color: #fff; }
 
 /*--------------------------------------------------*/
@@ -1602,7 +1602,7 @@ a, .btn, button {
       position: absolute;
       height: 2px;
       width: 80px;
-      background: #5DBCD2;
+      background: #a62020;
       left: 0;
       bottom: 0; }
   .all_contact_info .contact_row .contact_info p {
@@ -1617,7 +1617,7 @@ a, .btn, button {
       display: block;
       text-transform: uppercase; }
       .all_contact_info .contact_row .contact_info .location a:hover, .all_contact_info .contact_row .contact_info .location a:focus {
-        color: #5DBCD2; }
+        color: #a62020; }
     .all_contact_info .contact_row .contact_info .location .f_location {
       padding-bottom: 30px; }
     .all_contact_info .contact_row .contact_info .location .location_laft {
@@ -1651,14 +1651,14 @@ a, .btn, button {
     .all_contact_info .contact_row .send_message .contact_box button {
       color: #fefefe;
       font: 400 14px/40px "Roboto", sans-serif;
-      background: #5DBCD2;
+      background: #a62020;
       width: 140px;
       color: #222222;
       border: 0;
       border-radius: 0;
       text-transform: uppercase; }
       .all_contact_info .contact_row .send_message .contact_box button:hover, .all_contact_info .contact_row .send_message .contact_box button:focus {
-        color: #5DBCD2;
+        color: #a62020;
         background: #222222; }
 
 /* End All contact Info Css */
@@ -1706,7 +1706,7 @@ a, .btn, button {
           .footer_area .footer_row .footer_about .socail_icon li:first-child {
             padding: 0; }
           .footer_area .footer_row .footer_about .socail_icon li a {
-            border: 2px solid #5DBCD2;
+            border: 2px solid #a62020;
             display: block;
             line-height: 26px;
             width: 30px;
@@ -1720,7 +1720,7 @@ a, .btn, button {
               top: 0;
               bottom: 0;
               right: 0;
-              background: #5DBCD2;
+              background: #a62020;
               z-index: -1;
               transform: scaleY(0);
               transform-origin: 50%;
@@ -1746,14 +1746,14 @@ a, .btn, button {
             padding-left: 30px; }
             .footer_area .footer_row .footer_about .quick_link li a i {
               font-size: 14px;
-              color: #5DBCD2;
+              color: #a62020;
               padding-right: 20px;
               position: absolute;
               left: 0;
               bottom: 0;
               transition: all 300ms linear 0s; }
             .footer_area .footer_row .footer_about .quick_link li a:hover, .footer_area .footer_row .footer_about .quick_link li a:focus {
-              color: #5DBCD2; }
+              color: #a62020; }
               .footer_area .footer_row .footer_about .quick_link li a:hover i, .footer_area .footer_row .footer_about .quick_link li a:focus i {
                 left: 8px; }
       .footer_area .footer_row .footer_about .twitter {
@@ -1762,7 +1762,7 @@ a, .btn, button {
         display: block;
         padding-bottom: 15px; }
         .footer_area .footer_row .footer_about .twitter:hover, .footer_area .footer_row .footer_about .twitter:focus {
-          color: #5DBCD2; }
+          color: #a62020; }
       .footer_area .footer_row .footer_about address p {
         font: 400 14px/28px "Roboto", sans-serif;
         color: #fff;
@@ -1777,12 +1777,12 @@ a, .btn, button {
             font: 400 14px/28px "Roboto", sans-serif;
             color: #fff; }
             .footer_area .footer_row .footer_about address .my_address li a i {
-              color: #5DBCD2;
+              color: #a62020;
               padding-right: 20px;
               font-size: 14px;
               display: inline-block; }
             .footer_area .footer_row .footer_about address .my_address li a:hover, .footer_area .footer_row .footer_about address .my_address li a:focus {
-              color: #5DBCD2; }
+              color: #a62020; }
           .footer_area .footer_row .footer_about address .my_address li span {
             display: inline-block;
             padding-left: 35px;
@@ -1796,7 +1796,7 @@ a, .btn, button {
       font-weight: 700;
       font-size: 14px;
       text-transform: uppercase;
-      color: #5DBCD2; }
+      color: #a62020; }
       .footer_area .copyright_area a:hover, .footer_area .copyright_area a:focus {
         color: #fefefe; }
 
@@ -1849,7 +1849,7 @@ a, .btn, button {
     display: none; }
 
   .top_header_area.top_header {
-    background: #111f29 !important; }
+    background: #000033 !important; }
 
   .top_header_area.top_header .right_top_header::after {
     display: none; }
@@ -1947,7 +1947,7 @@ a, .btn, button {
     padding-left: 30px;
     background-color: transparent; }
     .header_aera .navbar-collapse .navbar-nav.navbar-right li.submenu ul li a:hover, .header_aera .navbar-collapse .navbar-nav.navbar-right li.submenu ul li a:focus {
-      color: #5DBCD2; }
+      color: #a62020; }
 
   .slider_inner.camera_wrap {
     height: 500px !important; }

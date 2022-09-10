@@ -1,6 +1,6 @@
 /* Top header */
 .top_header_area{
-    background: #111f29;
+    background: #000033;
     .top_nav{
         li{
             a{
@@ -43,7 +43,7 @@
                 }
                 &:hover, &:focus{
                     background: $bc;
-                    color: #111f29;
+                    color: #000033;
                 }
             } 
         }
@@ -57,7 +57,7 @@
     position: relative;
     overflow: hidden; 
     .right_top_header{
-        background: #111f29;
+        background: #000033;
         display: block;
         overflow: hidden;
         padding-left: 20px;
@@ -66,7 +66,7 @@
             position: absolute;
             right: 0;
             width: 50%;
-            background: #111f29;
+            background: #000033;
             height: 50px;
             z-index: -1;
         }
