@@ -105,90 +105,41 @@
 
 
         }
-        jQuery(document).ready(function ($) {
-            if (selectedService == undefined) {
-                selectedService = "energy";
-               
-            }else{
-                selectedService = selectedService ;
+        jQuery(document).ready(function ($) {    
+            var pathname = window.location;
+            if(pathname.toString().indexOf("energy") == -1){        
+                var filterFromQuerystring = 'energy'; // getParameterByName('filter');
+                $('[data-filter=".' + filterFromQuerystring  + '"]').click();
             }
-    
-     console.log(selectedService)
-
-            if (selectedService == "energy") {
-                $('[data-filter=".energy"]').click();
+            if(pathname.toString().indexOf("energy") != -1){        
+                var filterFromQuerystring = 'energy'; // getParameterByName('filter');
+                $('[data-filter=".' + filterFromQuerystring  + '"]').click();
             }
-            if (selectedService == "plant") {
-                $('[data-filter=".plant"]').click();
+            if(pathname.toString().indexOf("plant") != -1){        
+                var filterFromQuerystring = 'plant'; // getParameterByName('filter');
+                $('[data-filter=".' + filterFromQuerystring  + '"]').click();
             }
-            if (selectedService == "agriculture") {
-                $('[data-filter=".agriculture"]').click();
+            if(pathname.toString().indexOf("agriculture") != -1){        
+                var filterFromQuerystring = 'agriculture'; // getParameterByName('filter');
+                $('[data-filter=".' + filterFromQuerystring  + '"]').click();
             }
-            if (selectedService == "consulting") {
-                $('[data-filter=".consulting"]').click();
+            if(pathname.toString().indexOf("consulting") != -1){        
+                var filterFromQuerystring = 'consulting'; // getParameterByName('filter');
+                $('[data-filter=".' + filterFromQuerystring  + '"]').click();
             }
-            if (selectedService == "manufacturing") {
-                $('[data-filter=".manufacturing"]').click();
+            if(pathname.toString().indexOf("manufacturing") != -1){        
+                var filterFromQuerystring = 'manufacturing'; // getParameterByName('filter');
+                $('[data-filter=".' + filterFromQuerystring  + '"]').click();
             }
-            if (selectedService == "retail") {
-                $('[data-filter=".retail"]').click();
+            if(pathname.toString().indexOf("retail") != -1){        
+                var filterFromQuerystring = 'retail'; // getParameterByName('filter');
+                $('[data-filter=".' + filterFromQuerystring  + '"]').click();
             }
-            debugger
-
         });
     }
 
 
-    $("#energy").click(function () {
-        selectedService = "energy";
-        portfolio_isotope();
-    });
-    $("#plant").click(function () {
-        selectedService = "plant";
-        portfolio_isotope() 
-    });
-    $("#agriculture").click(function () {
-        selectedService = "agriculture";
-        portfolio_isotope() 
-    });
-    $("#consulting").click(function () {
-        selectedService = "consulting";
-        portfolio_isotope() 
-    });
-    $("#manufacturing").click(function () {
-        selectedService = "manufacturing";
-        portfolio_isotope() 
-    });
-    $("#retail").click(function () {
-        selectedService = "retail";
-        portfolio_isotope() 
-    });
-    // function energy() {
-    //     jQuery(document).ready(function ($) {
-
-    //         $('[data-filter=".energy"]').click();
-    //     });
-    // }
-
-    // function agriculture() {
-    //     jQuery(document).ready(function ($) {
-    //         $('[data-filter=".agriculture"]').click();
-    //     });
-    // }
-    // function consulting() {
-    //     jQuery(document).ready(function ($) {
-
-    //         $('[data-filter=".consulting"]').click();
-
-    //     });
-    // }
-    // function manufacturing() {
-    //     jQuery(document).ready(function ($) {
-    //         $('[data-filter=".manufacturing"]').click();
-    //     });
-    // }
-
-
+  
 
     //* Stellar 
     $(function () {
