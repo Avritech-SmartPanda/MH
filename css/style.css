@@ -2001,7 +2001,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   padding-bottom: 30px;
 }
 .all_contact_info .contact_row .contact_info .location .location_laft {
-  width: 98px;
+  width:200px;
   float: left;
 }
 .all_contact_info .contact_row .contact_info .location .address a {
