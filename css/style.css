@@ -922,7 +922,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 .our_services_tow .architecture_area .portfolio_filter_2 ul li {
   float: left;
   list-style: none;
-  width: 20%;
+  width:16.6666%;
   text-align: center;
   transition: all 300ms linear 0s;
   border-right: 1px solid #dfe3e4;

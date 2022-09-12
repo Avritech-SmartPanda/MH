@@ -1,6 +1,6 @@
 ; (function ($) {
     "use strict";
-
+    var selectedService;
     //* mainNavbar
     function mainNavbar() {
         if ($('#main_navbar').length) {
@@ -48,6 +48,7 @@
 
     //* Isotope Js
     function portfolio_isotope() {
+    
         if ($('.portfolio_item, .portfolio_2 .portfolio_filter ul li').length) {
             // Activate isotope in container
             $(".portfolio_item").imagesLoaded(function () {
@@ -105,36 +106,87 @@
 
         }
         jQuery(document).ready(function ($) {
-            $('[data-filter=".consulting"]').click();
+            if (selectedService == undefined) {
+                selectedService = "energy";
+               
+            }else{
+                selectedService = selectedService ;
+            }
+    
+     console.log(selectedService)
+
+            if (selectedService == "energy") {
+                $('[data-filter=".energy"]').click();
+            }
+            if (selectedService == "plant") {
+                $('[data-filter=".plant"]').click();
+            }
+            if (selectedService == "agriculture") {
+                $('[data-filter=".agriculture"]').click();
+            }
+            if (selectedService == "consulting") {
+                $('[data-filter=".consulting"]').click();
+            }
+            if (selectedService == "manufacturing") {
+                $('[data-filter=".manufacturing"]').click();
+            }
+            if (selectedService == "retail") {
+                $('[data-filter=".retail"]').click();
+            }
+            debugger
+
         });
     }
 
 
+    $("#energy").click(function () {
+        selectedService = "energy";
+        portfolio_isotope();
+    });
+    $("#plant").click(function () {
+        selectedService = "plant";
+        portfolio_isotope() 
+    });
+    $("#agriculture").click(function () {
+        selectedService = "agriculture";
+        portfolio_isotope() 
+    });
+    $("#consulting").click(function () {
+        selectedService = "consulting";
+        portfolio_isotope() 
+    });
+    $("#manufacturing").click(function () {
+        selectedService = "manufacturing";
+        portfolio_isotope() 
+    });
+    $("#retail").click(function () {
+        selectedService = "retail";
+        portfolio_isotope() 
+    });
+    // function energy() {
+    //     jQuery(document).ready(function ($) {
 
-    function energy() {
-        jQuery(document).ready(function ($) {
+    //         $('[data-filter=".energy"]').click();
+    //     });
+    // }
 
-            $('[data-filter=".energy"]').click();
-        });
-    }
+    // function agriculture() {
+    //     jQuery(document).ready(function ($) {
+    //         $('[data-filter=".agriculture"]').click();
+    //     });
+    // }
+    // function consulting() {
+    //     jQuery(document).ready(function ($) {
 
-    function agriculture() {
-        jQuery(document).ready(function ($) {
-            $('[data-filter=".agriculture"]').click();
-        });
-    }
-    function consulting() {
-        jQuery(document).ready(function ($) {
+    //         $('[data-filter=".consulting"]').click();
 
-            $('[data-filter=".consulting"]').click();
-
-        });
-    }
-    function manufacturing() {
-        jQuery(document).ready(function ($) {
-            $('[data-filter=".manufacturing"]').click();
-        });
-    }
+    //     });
+    // }
+    // function manufacturing() {
+    //     jQuery(document).ready(function ($) {
+    //         $('[data-filter=".manufacturing"]').click();
+    //     });
+    // }
 
 
 
@@ -242,11 +294,7 @@
     new WOW().init();
     home_main_slider();
     testimonialsCarosel();
-    energy();
-    agriculture();
-    consulting();
-    manufacturing();
-    portfolio_isotope();   
+    portfolio_isotope()
     counterUp();
     partnersCarosel();
     ourSkrill();
