@@ -627,9 +627,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 
 /*--------------------------------------------------*/
 /* about_us_area */
-.about_us_area {
-  background: #fefefe;
-}
+
 .about_us_area .about_row {
   padding-top: 70px;
   padding-bottom: 70px;
@@ -637,8 +635,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 .about_us_area .about_row p {
   font: 400 14px/26px "Roboto", sans-serif;
   color: #555555;
-  padding-top: 28px;
-  padding-bottom: 54px;
+
 }
 .about_us_area .about_row .about_client {
   padding-top: 7px;
@@ -659,7 +656,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   overflow: visible;
   border-radius: 0;
   position: relative;
-  margin-bottom: 40px;
+  /* margin-bottom: 40px; */
 }
 .about_us_area .about_row .our_skill_inner .single_skill .progress .progress-bar {
   background: #a62020;
@@ -669,8 +666,8 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   font: 700 18px "Roboto", sans-serif;
   color: #222222;
   position: absolute;
-  right: 0;
-  top: -30px;
+  right: -52px;
+  top: -8px;
 }
 .about_us_area .about_us2_pages {
   padding-top: 90px;
