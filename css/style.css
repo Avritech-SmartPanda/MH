@@ -1189,7 +1189,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   width: 100%;
 }
 .our_partners_area .book_now_aera {
-  background: #000033;
+  background: #9a9a9a;
   padding: 50px 0;
 }
 .our_partners_area .book_now_aera .book_now .booking_text {
@@ -2202,7 +2202,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   margin-top: -30px; */
 }
 .footer_area .copyright_area {
-  background: #000033;
+  background: #9a9a9a;
   font: 400 14px/100px "Roboto", sans-serif;
   color: #fefefe;
   text-align: center;
@@ -2628,8 +2628,8 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   }
 
   .footer_area .copyright_area {
-    line-height: 26px;
-    padding: 10px 0;
+    /* line-height: 26px; */
+    padding: 2px 0;
   }
 
   .call_min_area h2 {
