@@ -1189,7 +1189,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   width: 100%;
 }
 .our_partners_area .book_now_aera {
-  background: #9a9a9a;
+  background: #fff;
   padding: 50px 0;
 }
 .our_partners_area .book_now_aera .book_now .booking_text {
@@ -1197,18 +1197,18 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 }
 .our_partners_area .book_now_aera .book_now .booking_text h4 {
   font: 700 18px "Roboto", sans-serif;
-  color: #fff;
+  color: #000033;
 }
 .our_partners_area .book_now_aera .book_now .booking_text p {
   font: 400 14px/26px "Roboto", sans-serif;
-  color: #fff;
+   color: #000033;
   padding-top: 5px;
 }
 .our_partners_area .book_now_aera .book_now .book_bottun a {
   width: 200px;
-  background: #fff;
+  background: #000033;
   border-radius: 10px;
-  color: #000033;
+  color: #fff;
 }
 
 /* End Our Partners Area */
@@ -2202,7 +2202,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   margin-top: -30px; */
 }
 .footer_area .copyright_area {
-  background: #9a9a9a;
+  background: #000033;
   font: 400 14px/100px "Roboto", sans-serif;
   color: #fefefe;
   text-align: center;
@@ -2628,8 +2628,8 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   }
 
   .footer_area .copyright_area {
-    /* line-height: 26px; */
-    padding: 2px 0;
+    line-height: 26px;
+    padding: 10px 0;
   }
 
   .call_min_area h2 {
